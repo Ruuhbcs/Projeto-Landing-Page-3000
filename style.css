@@ -1,0 +1,109 @@
+body{
+    background-color:#FF82AC;
+    color: rgb(233, 233, 233);
+    font-family: "Lato", sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+    font-weight: bold;
+}
+
+a{
+    color:white
+}
+
+a:hover{
+    color:#9530B8;
+    transition: 0.5s all;
+}
+
+#compra{
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 8px;
+}
+
+#compra:hover{
+    background-color: #9530B8;
+    color: white;
+}
+
+h1{
+    font-weight: 400;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+h2{
+    font-size: 50px;
+    line-height: 45px;
+    font-weight: bolder;
+}
+
+span{
+    color: #9530B8;
+    font-weight: bolder;
+}
+
+h3{
+    font-size: 25px;
+    line-height: 25px;
+    font-weight: bolder; 
+}
+
+p{
+    font-size: 17px;
+    line-height: 25px;
+    max-width: 500px;
+}
+
+img{
+    width: 720px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: #9530B8;
+    color: white;
+    font-weight: 950;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer; 
+}
+
+input{
+    margin-top: 16px;
+    height: 10px;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    font-size: 14px;
+}
